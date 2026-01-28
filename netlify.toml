@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+  command = ""
+
+# Optional: set strong caching for assets
+[[headers]]
+  for = "/style.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/script.js"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
