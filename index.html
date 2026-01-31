@@ -220,53 +220,56 @@
     </section>
 
 <!-- Projects -->
-<section class="container section" id="projects">
-  <div class="section__head">
-    <h2 class="section__title reveal">Projects</h2>
-    <p class="section__desc reveal">
-      Selected work demonstrating real-world design and development.
-    </p>
-  </div>
-
-  <div class="projects-grid">
-    <!-- Iron Gym -->
-    <article class="card card--hover reveal">
-      <div class="card__top">
-        <h3 class="card__title">Iron Gym</h3>
-        <span class="badge badge--live">Live</span>
-      </div>
-
-      <p class="card__text">
-        A premium fitness website built for a modern gym.  
-        Clean layout, branded colors, smooth navigation, and fully responsive.
+<section class="section section-padding" id="projects">
+  <div class="container">
+    <div class="section-header reveal text-center">
+      <span class="section-kicker">
+        <span class="kicker-icon">✦</span> Projects
+      </span>
+      <h2 class="section-title">Selected Work</h2>
+      <div class="section-underline"></div>
+      <p class="section-lead">
+        Real-world projects demonstrating design and development skills.
       </p>
+    </div>
 
-      <div class="tags">
-        <span class="tag">HTML</span>
-        <span class="tag">CSS</span>
-        <span class="tag">JavaScript</span>
-        <span class="tag">Netlify</span>
-      </div>
+    <div class="services-grid">
+      <!-- Iron Gym Project -->
+      <article class="gradient-border card card-pad hover-lift reveal">
+        <div class="card-row">
+          <div class="icon-tile">🏋️</div>
+          <div>
+            <h3>Iron Gym</h3>
+            <p class="muted">
+              A premium fitness website built for a modern gym. Clean layout,
+              branded colors, smooth navigation, and fully responsive.
+            </p>
+          </div>
+        </div>
 
-      <div class="card__actions">
-        <a
-          class="btn btn--sm btn--primary"
-          href="https://gym-dz.netlify.app/"
-          target="_blank"
-          rel="noopener"
-        >
-          Live Demo
-        </a>
+        <ul class="feature-list" style="margin-top:16px">
+          <li><span class="dot g-blue"></span>HTML, CSS, JavaScript</li>
+          <li><span class="dot g-purple"></span>Responsive Design</li>
+          <li><span class="dot g-orange"></span>Deployed on Netlify</li>
+        </ul>
 
-        <span class="btn btn--sm btn--ghost is-disabled" aria-disabled="true">
-          Code: Private
-        </span>
-      </div>
-    </article>
+        <div class="hero-cta" style="margin-top:18px">
+          <a
+            class="btn btn-premium btn-sm"
+            href="https://gym-dz.netlify.app/"
+            target="_blank"
+            rel="noopener"
+          >
+            Live Demo
+          </a>
+          <span class="btn btn-outline btn-sm" style="pointer-events:none; opacity:.6">
+            Code: Private
+          </span>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
-
-
     <!-- Contact -->
     <section class="section section-padding section-alt" id="contact">
       <div class="section-glow glow-center"></div>
