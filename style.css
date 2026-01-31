@@ -431,6 +431,58 @@ button{font:inherit}
 .dot.g-orange{background: linear-gradient(90deg, #f97316, #ef4444)}
 
 /* Projects */
+/* Portfolio Project Card */
+.project-card{
+  background: rgba(16,20,26,.55);
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 16px 40px rgba(0,0,0,.35);
+}
+
+.project-top h3{
+  margin: 0 0 8px;
+}
+
+.project-list{
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  color: rgba(242,245,247,.9);
+  font-weight: 700;
+}
+
+.project-actions{
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.project-private{
+  font-size: 13px;
+  color: rgba(165,176,189,.9);
+  border: 1px solid rgba(255,255,255,.10);
+  padding: 8px 10px;
+  border-radius: 12px;
+}
+
+.project-badge{
+  display:inline-block;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.10);
+  margin-bottom: 10px;
+}
+
 .coming-soon{
   max-width:760px;
   margin:0 auto;
