@@ -585,3 +585,17 @@ a.contact-value:hover{color:var(--primary)}
   .contact-grid{grid-template-columns:1fr}
   .section-padding{padding:90px 0}
 }
+/* Projects grid (single project support) */
+.projects-grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* Live badge */
+.badge--live{
+  background: rgba(80, 255, 177, .12);
+  border: 1px solid rgba(80, 255, 177, .28);
+  color: rgba(80, 255, 177, .95);
+}
+
